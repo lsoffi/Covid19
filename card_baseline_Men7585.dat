@@ -1,0 +1,16 @@
+#data card catgory: Men7585
+imax *
+jmax *
+kmax *
+---------------
+shapes data_obs * file_baseline_workspace_Men7585.root w_Men7585:data_obsMen7585
+shapes baseline * file_baseline_workspace_Men7585.root w_Men7585:baselineMen7585
+---------------
+bin    Men7585
+observation    100207
+---------------
+bin    Men7585
+process   baseline
+process   1
+rate      1
+nb_frac_Men7585  param  0.162263 0.032453

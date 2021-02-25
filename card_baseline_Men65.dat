@@ -1,0 +1,16 @@
+#data card catgory: Men65
+imax *
+jmax *
+kmax *
+---------------
+shapes data_obs * file_baseline_workspace_Men65.root w_Men65:data_obsMen65
+shapes baseline * file_baseline_workspace_Men65.root w_Men65:baselineMen65
+---------------
+bin    Men65
+observation    44706
+---------------
+bin    Men65
+process   baseline
+process   1
+rate      1
+nb_frac_Men65  param  0.072392 0.014478

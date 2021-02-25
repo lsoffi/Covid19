@@ -1,0 +1,16 @@
+#data card catgory: Men6575
+imax *
+jmax *
+kmax *
+---------------
+shapes data_obs * file_baseline_workspace_Men6575.root w_Men6575:data_obsMen6575
+shapes baseline * file_baseline_workspace_Men6575.root w_Men6575:baselineMen6575
+---------------
+bin    Men6575
+observation    52953
+---------------
+bin    Men6575
+process   baseline
+process   1
+rate      1
+nb_frac_Men6575  param  0.085746 0.017149

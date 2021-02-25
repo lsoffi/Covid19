@@ -1,0 +1,54 @@
+Combination of Women65=card_flu1617_Women65.dat  Women6575=card_flu1617_Women6575.dat  Women7585=card_flu1617_Women7585.dat  Women85=card_flu1617_Women85.dat  Men65=card_flu1617_Men65.dat  Men6575=card_flu1617_Men6575.dat  Men7585=card_flu1617_Men7585.dat  Men85=card_flu1617_Men85.dat
+imax 8 number of bins
+jmax 1 number of processes minus 1
+kmax 16 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes baseline1617  Men65         file_flu1617_workspace_Men65.root w_Men65:baseline1617Men65
+shapes data_obs      Men65         file_flu1617_workspace_Men65.root w_Men65:data_obsMen65
+shapes flu1617       Men65         file_flu1617_workspace_Men65.root w_Men65:flupdf1617Men65
+shapes baseline1617  Men6575       file_flu1617_workspace_Men6575.root w_Men6575:baseline1617Men6575
+shapes data_obs      Men6575       file_flu1617_workspace_Men6575.root w_Men6575:data_obsMen6575
+shapes flu1617       Men6575       file_flu1617_workspace_Men6575.root w_Men6575:flupdf1617Men6575
+shapes baseline1617  Men7585       file_flu1617_workspace_Men7585.root w_Men7585:baseline1617Men7585
+shapes data_obs      Men7585       file_flu1617_workspace_Men7585.root w_Men7585:data_obsMen7585
+shapes flu1617       Men7585       file_flu1617_workspace_Men7585.root w_Men7585:flupdf1617Men7585
+shapes baseline1617  Men85         file_flu1617_workspace_Men85.root w_Men85:baseline1617Men85
+shapes data_obs      Men85         file_flu1617_workspace_Men85.root w_Men85:data_obsMen85
+shapes flu1617       Men85         file_flu1617_workspace_Men85.root w_Men85:flupdf1617Men85
+shapes baseline1617  Women65       file_flu1617_workspace_Women65.root w_Women65:baseline1617Women65
+shapes data_obs      Women65       file_flu1617_workspace_Women65.root w_Women65:data_obsWomen65
+shapes flu1617       Women65       file_flu1617_workspace_Women65.root w_Women65:flupdf1617Women65
+shapes baseline1617  Women6575     file_flu1617_workspace_Women6575.root w_Women6575:baseline1617Women6575
+shapes data_obs      Women6575     file_flu1617_workspace_Women6575.root w_Women6575:data_obsWomen6575
+shapes flu1617       Women6575     file_flu1617_workspace_Women6575.root w_Women6575:flupdf1617Women6575
+shapes baseline1617  Women7585     file_flu1617_workspace_Women7585.root w_Women7585:baseline1617Women7585
+shapes data_obs      Women7585     file_flu1617_workspace_Women7585.root w_Women7585:data_obsWomen7585
+shapes flu1617       Women7585     file_flu1617_workspace_Women7585.root w_Women7585:flupdf1617Women7585
+shapes baseline1617  Women85       file_flu1617_workspace_Women85.root w_Women85:baseline1617Women85
+shapes data_obs      Women85       file_flu1617_workspace_Women85.root w_Women85:data_obsWomen85
+shapes flu1617       Women85       file_flu1617_workspace_Women85.root w_Women85:flupdf1617Women85
+----------------------------------------------------------------------------------------------------------------------------------
+bin          Women65    Women6575  Women7585  Women85    Men65      Men6575    Men7585    Men85    
+observation  8564       10929      31111      71056      14045      17884      36187      40142    
+----------------------------------------------------------------------------------------------------------------------------------
+bin          Women65       Women65       Women6575     Women6575     Women7585     Women7585     Women85       Women85       Men65         Men65         Men6575       Men6575       Men7585       Men7585       Men85         Men85       
+process      flu1617       baseline1617  flu1617       baseline1617  flu1617       baseline1617  flu1617       baseline1617  flu1617       baseline1617  flu1617       baseline1617  flu1617       baseline1617  flu1617       baseline1617
+process      0             1             0             1             0             1             0             1             0             1             0             1             0             1             0             1           
+rate         1             1             1             1             1             1             1             1             1             1             1             1             1             1             1             1           
+----------------------------------------------------------------------------------------------------------------------------------
+b1617Women6575_frac  param  0.052252 0.010450
+flu1617Men6575_frac  param  0.043747 0.008749
+b1617Women85_frac  param  0.283319 0.056664
+b1617Men85_frac  param  0.162096 0.032419
+flu1617Women65_frac  param  0.014241 0.002848
+flu1617Women6575_frac  param  0.041508 0.008302
+b1617Men6575_frac  param  0.085746 0.017149
+b1617Women7585_frac  param  0.139233 0.027847
+b1617Men65_frac  param  0.072392 0.014478
+flu1617Women85_frac  param  0.394303 0.078861
+flu1617Men65_frac  param  0.026264 0.005253
+b1617Women65_frac  param  0.042699 0.008540
+flu1617Men85_frac  param  0.201993 0.040399
+b1617Men7585_frac  param  0.162263 0.032453
+flu1617Women7585_frac  param  0.119845 0.023969
+flu1617Men7585_frac  param  0.158099 0.031620

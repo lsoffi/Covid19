@@ -1,0 +1,19 @@
+#data card catgory: Women6575
+imax *
+jmax *
+kmax *
+---------------
+shapes data_obs * file_flu1617_workspace_Women6575.root w_Women6575:data_obsWomen6575
+shapes baseline1617 * file_flu1617_workspace_Women6575.root w_Women6575:baseline1617Women6575
+shapes flu1617 * file_flu1617_workspace_Women6575.root w_Women6575:flupdf1617Women6575
+---------------
+bin    Women6575 
+observation    10929
+---------------
+bin    Women6575 Women6575
+process   baseline1617 flu1617
+process   1   0 
+rate      1 1
+---------------
+b1617Women6575_frac  param  0.052252 0.010450
+flu1617Women6575_frac  param  0.041508 0.008302

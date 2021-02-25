@@ -1,0 +1,34 @@
+Combination of Women65=card_flu1617_Women65.dat  Women6575=card_flu1617_Women6575.dat  Women7585=card_flu1617_Women7585.dat  Women85=card_flu1617_Women85.dat
+imax 4 number of bins
+jmax 1 number of processes minus 1
+kmax 8 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes baseline1617  Women65       file_flu1617_workspace_Women65.root w_Women65:baseline1617Women65
+shapes data_obs      Women65       file_flu1617_workspace_Women65.root w_Women65:data_obsWomen65
+shapes flu1617       Women65       file_flu1617_workspace_Women65.root w_Women65:flupdf1617Women65
+shapes baseline1617  Women6575     file_flu1617_workspace_Women6575.root w_Women6575:baseline1617Women6575
+shapes data_obs      Women6575     file_flu1617_workspace_Women6575.root w_Women6575:data_obsWomen6575
+shapes flu1617       Women6575     file_flu1617_workspace_Women6575.root w_Women6575:flupdf1617Women6575
+shapes baseline1617  Women7585     file_flu1617_workspace_Women7585.root w_Women7585:baseline1617Women7585
+shapes data_obs      Women7585     file_flu1617_workspace_Women7585.root w_Women7585:data_obsWomen7585
+shapes flu1617       Women7585     file_flu1617_workspace_Women7585.root w_Women7585:flupdf1617Women7585
+shapes baseline1617  Women85       file_flu1617_workspace_Women85.root w_Women85:baseline1617Women85
+shapes data_obs      Women85       file_flu1617_workspace_Women85.root w_Women85:data_obsWomen85
+shapes flu1617       Women85       file_flu1617_workspace_Women85.root w_Women85:flupdf1617Women85
+----------------------------------------------------------------------------------------------------------------------------------
+bin          Women65    Women6575  Women7585  Women85  
+observation  8564       10929      31111      71056    
+----------------------------------------------------------------------------------------------------------------------------------
+bin          Women65       Women65       Women6575     Women6575     Women7585     Women7585     Women85       Women85     
+process      flu1617       baseline1617  flu1617       baseline1617  flu1617       baseline1617  flu1617       baseline1617
+process      0             1             0             1             0             1             0             1           
+rate         1             1             1             1             1             1             1             1           
+----------------------------------------------------------------------------------------------------------------------------------
+b1617Women6575_frac  param  0.052252 0.010450
+b1617Women85_frac  param  0.283319 0.056664
+flu1617Women65_frac  param  0.014241 0.002848
+flu1617Women6575_frac  param  0.041508 0.008302
+b1617Women7585_frac  param  0.139233 0.027847
+flu1617Women85_frac  param  0.394303 0.078861
+b1617Women65_frac  param  0.042699 0.008540
+flu1617Women7585_frac  param  0.119845 0.023969

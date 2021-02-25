@@ -1,0 +1,3 @@
+combineCards.py Women65=card_flu1617_Women65.dat Women6575=card_flu1617_Women6575.dat Women7585=card_flu1617_Women7585.dat Women85=card_flu1617_Women85.dat Men65=card_flu1617_Men65.dat Men6575=card_flu1617_Men6575.dat Men7585=card_flu1617_Men7585.dat Men85=card_flu1617_Men85.dat > combinedCard_Flu1617.dat
+combineCards.py Women65=card_flu1617_Women65.dat Women6575=card_flu1617_Women6575.dat Women7585=card_flu1617_Women7585.dat Women85=card_flu1617_Women85.dat > combinedCard_Flu1617_Women.dat
+combineCards.py Men65=card_flu1617_Men65.dat Men6575=card_flu1617_Men6575.dat Men7585=card_flu1617_Men7585.dat Men85=card_flu1617_Men85.dat > combinedCard_Flu1617_Men.dat

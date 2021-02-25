@@ -1,0 +1,19 @@
+#data card catgory: Men85
+imax *
+jmax *
+kmax *
+---------------
+shapes data_obs * file_flu1617_workspace_Men85.root w_Men85:data_obsMen85
+shapes baseline1617 * file_flu1617_workspace_Men85.root w_Men85:baseline1617Men85
+shapes flu1617 * file_flu1617_workspace_Men85.root w_Men85:flupdf1617Men85
+---------------
+bin    Men85 
+observation    40142
+---------------
+bin    Men85 Men85
+process   baseline1617 flu1617
+process   1   0 
+rate      1 1
+---------------
+b1617Men85_frac  param  0.162096 0.032419
+flu1617Men85_frac  param  0.201993 0.040399

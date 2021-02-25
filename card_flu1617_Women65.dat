@@ -1,0 +1,19 @@
+#data card catgory: Women65
+imax *
+jmax *
+kmax *
+---------------
+shapes data_obs * file_flu1617_workspace_Women65.root w_Women65:data_obsWomen65
+shapes baseline1617 * file_flu1617_workspace_Women65.root w_Women65:baseline1617Women65
+shapes flu1617 * file_flu1617_workspace_Women65.root w_Women65:flupdf1617Women65
+---------------
+bin    Women65 
+observation    8564
+---------------
+bin    Women65 Women65
+process   baseline1617 flu1617
+process   1   0 
+rate      1 1
+---------------
+b1617Women65_frac  param  0.042699 0.008540
+flu1617Women65_frac  param  0.014241 0.002848
