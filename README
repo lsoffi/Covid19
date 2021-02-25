@@ -1,0 +1,20 @@
+#access compatible version of combine 
+ssh lxplus8.cern.ch
+cd /afs/cern.ch/user/a/amarini/work/HiggsCombination/forLivia/HiggsAnalysis/CombinedLimit
+source env_standalone.sh
+
+
+#combine cards
+source combineCardsFlu1617.sh
+source combineCardsBaseline.sh
+
+#produce ws
+text2workspace.py combinedCard_Flu1617.dat
+text2workspace.py combinedCardBaseline.dat --X-allow-no-signal
+
+#run combine
+combine -M FitDiagnostics combinedCard_Flu1617.dat.root --saveShapes --verbose 2 --plots
+combine -M FitDiagnostics combinedCardBaseline.dat.root --saveShapes --verbose 2 --plots
+
+#look at plots
+root -l fitDiagnostics.root
