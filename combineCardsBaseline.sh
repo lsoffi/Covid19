@@ -1,0 +1,1 @@
+combineCards.py Women65=card_baseline_Women65.dat Women6575=card_baseline_Women6575.dat Women7585=card_baseline_Women7585.dat Women85=card_baseline_Women85.dat Men65=card_baseline_Men65.dat Men6575=card_baseline_Men6575.dat Men7585=card_baseline_Men7585.dat Men85=card_baseline_Men85.dat >combinedCardBaseline.dat
